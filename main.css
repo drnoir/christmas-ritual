@@ -11,8 +11,8 @@ body{
 .scene{
     width: 80%;
     height: 600px;
-    margin: 20px;
-    perspective:400px;
+    margin-top: 1vh;
+    perspective:300px;
     display: grid;
     align-content: center;
 }
