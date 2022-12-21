@@ -1,20 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Noto+Emoji:wght@600&display=swap');
+
 * {box-sizing: border-box;}
 
 body{
     font-family:monospace;
     background:black;
-    color:white
+    color:white;
+    font-size: 1em;
+}
+
+header{
+    background: red;
+}
+
+footer{
+    background: darkgreen;
+    font-size: 2em;
+    text-align: center;
 }
 
 .scene{
-    width: 80%;
-    height: 600px;
-    margin-top: 1vh;
     perspective:300px;
     display: grid;
     align-content: center;
+    margin: auto 0;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+}
+
+.wish{
+    width:0.5em;
+    float:right;
+    text-align: center;
+    padding: 2em;
+    margin:1em;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 .cube{
@@ -38,6 +80,10 @@ body{
     font-weight: bold;
     color: white;
     text-align: center;
+}
+
+m-1{
+    margin:2em;
 }
 
 .cube_face--1 {background:red; opacity:0.85; }
